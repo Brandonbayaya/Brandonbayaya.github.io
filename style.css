@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position:center ;
+    background-image: url('yurii-khimanin-o4H20aIIAt8-unsplash.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    
+}
+.profile-box{
+    background: rgb(238,221,174);
+background: radial-gradient(circle, rgba(238,221,174,0.9192051820728291) 37%, rgba(240,169,83,1) 92%);
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 20px;
+    box-shadow:  5px 6px 50px black;
+   
+}
+.white-box{
+    margin: 20px;
+    border-radius:20px ;
+    padding: 20px;
+    background-color: white;
+}
+.profile-picture{
+    width: 150px;
+    border-radius: 50%;
+}
+.my-name{
+    margin: 10px;
+    margin-bottom: px;
+}
+button{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px 10px;
+    cursor: pointer;
+    transition: .5s;  
+}
+button:hover{
+    box-shadow: 1px 1px 3px black;
+}
+button:active{
+    background-color: black;
+    color: white;
+}
+
+.social{
+    
+    width: 40px;
+    height: 40px;
+}
